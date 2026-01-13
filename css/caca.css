@@ -1,0 +1,504 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 
+.header-main-nav {  
+	height: 100%; 
+} 
+ 
+.header-main-nav ul { 
+	margin-left: 40px; 
+} 
+ 
+.header-main-nav li { 
+    display: inline; 
+    float: left;
+	
+} 
+
+.header-main-nav li a { 
+padding: 0 10px; 
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+line-height: cover;
+display:block;
+height: 100%;
+color: white;
+font-size: 2.5rem;
+}
+
+.header-main-nav li a:hover {
+    color: #fecc73;
+}
+
+.about-main {
+	background-image: url("../img/download.jpe");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-p {
+	margin: 20px 20px 0px 20px;
+	padding: 50px 100px 50px 100px;
+	background-color: white;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.2rem;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-radius: 100px 100px 0 0px;
+	flex-basis: 20%;
+	flex-wrap: wrap
+		
+}
+
+h1 {
+margin-top: 100px;	
+}
+
+.main-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-info-left {
+	padding-right: 75px;
+	transition: 1000ms;
+	border-right: 2px solid #ffffff;
+		
+}
+
+
+.img-info-middle {
+	padding: 0 75px;
+	transition: 1000ms;
+	
+}
+
+
+.img-info-right {
+	
+	padding-left: 75px;
+	border-left: 2px solid #ffffff;
+		transition: 1000ms;
+}
+
+
+.info-body{
+	background-image: url("../img//infobg.png");
+	background-size: 100%;
+	
+		
+		
+}
+
+.info-back{
+	background-color: #1a2d3b;
+		
+}
+
+
+.about-body {
+	background-image: url("../img/about-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%, cover;
+}
+
+.info-footer{
+	padding-right: 950px;
+	background: #1a2b3d;
+}
+
+.info-bawah{
+	padding-left: 950px;
+}
+
+
+.info-umjeil{
+	padding-left: 715px;
+    display: flex;
+    justify-content: center; 
+    
+} 
+
+
+main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #663b2d;
+    text-align: center;
+}
+
+.border {
+  width: 0.3%;
+  height: 50%;
+  background-color: #ffffff;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.games-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.tier {
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tier p {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 3vh;
+  border-bottom: #ffffff 2px;
+  padding-bottom: 3%;
+}
+
+.card-hard {
+    width:  100%;
+    height: 100%;
+    background-image: url("../images/hard_quest_cover.img");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;    
+}
+
+.card-hard:hover {
+  background-image: url("../images/hard_quest_trans.img");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  transition: 1000ms ;
+}
+
+.card-medium {
+    width:  100%;
+    height: 100%;
+    background-image: url("..//images/medium_quest_cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    display: flex;	
+    justify-content: center;
+    align-items: center;
+    color: aqua;    
+}
+
+.card-medium:hover {
+  background-image: url("..//images/medium_quest_trans.jpeg");;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  transition: 1000ms ;
+}
+
+.card-easy {
+    width:  100%;
+    height: 100%;
+    background-image: url("..//images/easy_quest_cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;       
+}
+
+
+.card-easy:hover {
+  background-image: url("..//images/easy_quest_trans.jpeg");;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  transition: 1000ms ;
+}
+
+.main-games {
+  display: flex;
+	height: 600px;
+
+}
+
+
+
+
+.Edukasi_img {
+	align-content: center;	
+	width: 35%;
+}
+
+.Home_body_img {
+	position: absolute;
+	object-fit: 100%, cover;
+}
+
+.header-main {
+    position: fixed ;
+    top: 0; 
+    width: 100%; 
+    height:  78px; 
+    background-color: #8d5842; 
+    display: flex; 
+    justify-content: center; 
+    z-index: 1000; 
+} 
+ 
+ 
+.header-main-nav {  
+	height: 100%; 
+} 
+ 
+.header-main-nav ul { 
+	margin-left: 30px 
+} 
+ 
+.header-main-nav li { 
+    display: inline; 
+    float: left;
+	
+} 
+
+.header-main-nav li a { 
+padding: 0 10px; 
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+line-height: cover;
+display:block;
+height: 100%;
+color: white;
+font-size: 2.5rem;
+}
+
+.header-main-nav li a:hover {
+    color: #4dbfd9;
+}
+
+.home-body {
+	background-color: #663b2d;
+	background-repeat: no-repeat;
+	background-size: 100%, cover;
+}
+
+.about-main {
+	background-image: url("../img/download.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-p {
+	margin: 20px 20px 0px 20px;
+	padding: 50px 100px 50px 100px;
+	background-color: white;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.2rem;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-radius: 100px 100px 0 0px;
+	flex-basis: 20%;
+	flex-wrap: wrap
+		
+}
+
+.main-games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {  
+  background-color: #fff;
+  color: #784f2d;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px 0 10px 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+h2 {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 70%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Label level kesulitan */
+.level {
+  background-color: #fff;
+  color: #784f2d;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px 0 10px 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Area gambar header */
+.header-img {
+  width: 100%;
+  height: 220px;
+  background-image: url('medical-collage.jpg'); /* ganti dengan gambar medis kamu */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Lapisan teks di atas gambar */
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h2 {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* Kotak pertanyaan */
+.question-box {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 70%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Tombol jawaban 00000000000000000000000000000000*/
+.answers {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.answers button {
+  background-color: #d6d6d6;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.answers button:hover {
+  background-color: #9c7b61;
+  color: white;
+}
+
+/* Penjelasan */
+.explanation {
+  width: 70%;
+  background-color: #fff;
+  color: #000;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: justify;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+
+.main-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-info-left {
+	padding-right: 75px;
+	transition: 1000ms;
+	border-right: 2px solid #ffffff;
+		
+}
+
+
+.img-info-middle {
+	padding: 0 75px;
+	transition: 1000ms;
+	
+}
+
+
+.img-info-right {
+	
+	padding-left: 75px;
+	border-left: 2px solid #ffffff;
+		transition: 1000ms;
+}
+
+
+.info-body{
+	background-image: url("../img//infobg.png");
+	background-size: 100%;
+	
+		
+		
+}
+
+.info-back{
+	background-color: #1a2d3b;
+		
+}
+
+
+.about-body {
+	background-image: url("../img/about-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%, cover;
+}
+
+.info-footer{
+	padding-right: 950px;
+	background: #1a2b3d;
+}
+
+.info-bawah{
+	padding-left: 950px;
+}
+
+
+.info-umjeil{
+	padding-left: 715px;
+    display: flex;
+    justify-content: center; 
+    
+} 
+
+
